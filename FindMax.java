@@ -34,7 +34,7 @@ public class FindMax {
         }
     }
     
-    public static int maxsum(int[] arr) {
+    public static int maxSum(int[] arr) {
         int currentmax = arr[0];
         int lastmax = arr[0];
         for (int i = 1; i < arr.length; i++) {
@@ -48,14 +48,12 @@ public class FindMax {
     public static void main(String[] args) {
         int[] arr = { 2, -1, 3, 4, -6, 7, -9, 8 };
         System.out.println(findMax(arr));
-        // Sort(arr);
-
-        // for (int i : arr) {
-        //     System.out.print(i + " ");
-        // }
+        Sort(arr);
+        for (int i : arr) {
+            System.out.print(i + " ");
+        } 
+        System.out.println("");
         
-        // System.out.println("");
-
        System.out.println(maxsum(arr)); 
 
 
